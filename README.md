@@ -30,6 +30,8 @@ The provided code performs various data processing operations. Here's a summary 
 6. tokenize function: Tokenizes and encodes the training, validation, and testing data using the dictionaries and encoding_w function.
 Each section contains additional code that is commented out, which may be used for printing or further analysis.
 
+[https://github.com/swapnilmn/Assignment_03/blob/main/Question_1_Ass_3.ipynb](code)
+
 
 # Question 1:
  1. EncoderRNN class:
