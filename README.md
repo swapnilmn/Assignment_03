@@ -55,6 +55,29 @@ Here I have taken following hyperparameter choices
 
 ![image](https://github.com/swapnilmn/Assignment_03/assets/126043206/cc9a7236-da7e-44f6-b7e5-67d19926b584)
 
+# Question 3: 
+
+# Question 4:
+                   parameters_dict = {
+                                      'optimiser': {'values': ['adam']},
+                                      'teacher_forcing_ratio': {'values': [0]},
+                                      'bidirectional': {'values': [True]},
+                                      'enc_embedding': {'values': [128]},
+                                      'dec_embedding': {'values': [128]},
+                                      'epochs': {'values': [8]},
+                                      'hidden_size': {'values': [512]},
+                                      'enc_layers': {'values': [3]},
+                                      'dec_layers': {'values': [3]},
+                                      'dropout': {'values': [0.3]},
+                                      'cell_type': {'values': ['lstm']}
+                                  }
+
+highest_accuracy_val = 0.40
+highest_accuracy_test = 0.38
+
+# Question 5: 
+
+
 
 
 
