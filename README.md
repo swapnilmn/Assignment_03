@@ -31,6 +31,24 @@ The provided code performs various data processing operations. Here's a summary 
 Each section contains additional code that is commented out, which may be used for printing or further analysis.
 
 
+# Question 1:
+ 1. EncoderRNN class:
+Embeds input sequences using an embedding layer.
+Passes the embedded input through an RNN (LSTM, GRU, or RNN).
+Returns the RNN output, final hidden state, and final cell state.
+
+2. DecoderRNN class:
+Embeds input sequences using an embedding layer.
+Passes the embedded input through an RNN (LSTM, GRU, or RNN).
+Applies linear transformation and log softmax activation to generate output probabilities.
+
+3. Seq2Seq class:
+Combines the encoder and decoder components into a seq2seq model.
+Performs encoding of source sequences using the encoder.
+Generates target sequences using the decoder with teacher forcing during training.
+Performs inference by feeding the predicted output from the previous time step as input for the next time step.
+
+
 
 
 
