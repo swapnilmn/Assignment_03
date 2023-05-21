@@ -51,7 +51,9 @@ Performs inference by feeding the predicted output from the previous time step a
 # Question 2: 
 
 Here I have taken following hyperparameter choices
-![image](https://github.com/swapnilmn/Assignment_03/assets/126043206/14c13663-b895-4a24-a15d-99f40d5bd635)
+
+
+![image](https://github.com/swapnilmn/Assignment_03/assets/126043206/cc9a7236-da7e-44f6-b7e5-67d19926b584)
 
 
 
