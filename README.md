@@ -30,8 +30,6 @@ The provided code performs various data processing operations. Here's a summary 
 6. tokenize function: Tokenizes and encodes the training, validation, and testing data using the dictionaries and encoding_w function.
 Each section contains additional code that is commented out, which may be used for printing or further analysis.
 
-[code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_1_Ass_3.ipynb) for Question 1
-
 
 # Question 1:
  1. EncoderRNN class:
@@ -50,6 +48,8 @@ Performs encoding of source sequences using the encoder.
 Generates target sequences using the decoder with teacher forcing during training.
 Performs inference by feeding the predicted output from the previous time step as input for the next time step.
 
+[code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_1_Ass_3.ipynb) for Question 1
+
 # Question 2: 
 
 Here I have taken following hyperparameter choices
@@ -57,7 +57,8 @@ Here I have taken following hyperparameter choices
 
 ![image](https://github.com/swapnilmn/Assignment_03/assets/126043206/cc9a7236-da7e-44f6-b7e5-67d19926b584)
 
-# Question 3: 
+[code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_2_Ass_3.ipynb) for Question 2
+
 
 # Question 4:
                    parameters_dict = {
@@ -77,7 +78,16 @@ Here I have taken following hyperparameter choices
 highest_accuracy_val = 0.40
 highest_accuracy_test = 0.38
 
+[code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_4_Ass_3.ipynb) for Question 4
+[Link](https://github.com/swapnilmn/Assignment_03/blob/main/marVanillaPredictions1.csv) of VanillaPredictions
+
 # Question 5: 
+[code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_5_Ass_3.ipynb) for Question 5
+[Link](https://github.com/swapnilmn/Assignment_03/blob/main/marAttentionPredictions1.csv) of AttentionPredictions
+
+# Wandb Report
+
+[Link](https://wandb.ai/ed22s009/CS6910%20Assignment%203/reports/ED22S009-s-CS6910-Assignment_3--Vmlldzo0NDIzMjYz) of Wandb report
 
 
 
