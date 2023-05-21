@@ -48,6 +48,12 @@ Performs encoding of source sequences using the encoder.
 Generates target sequences using the decoder with teacher forcing during training.
 Performs inference by feeding the predicted output from the previous time step as input for the next time step.
 
+# Question 2: 
+
+Here I have taken following hyperparameter choices
+![image](https://github.com/swapnilmn/Assignment_03/assets/126043206/14c13663-b895-4a24-a15d-99f40d5bd635)
+
+
 
 
 
