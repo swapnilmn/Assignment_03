@@ -92,12 +92,12 @@ highest_accuracy_test = 21.69%
 
 [code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_4_Ass_3.ipynb) for Question 4
 
-[Link](https://github.com/swapnilmn/Assignment_03/blob/main/marVanillaPredictions1.csv) of VanillaPredictions
+[Link](https://github.com/swapnilmn/Assignment_03/blob/main/VanillaFinalPredictions1.csv) of VanillaPredictions
 
 # Question 5: 
 [code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_5_Ass_3.ipynb) for Question 5
 
-[Link](https://github.com/swapnilmn/Assignment_03/blob/main/marAttentionPredictions1.csv) of AttentionPredictions
+[Link](https://github.com/swapnilmn/Assignment_03/blob/main/mar-AttentionPreditions.csv#L1) of AttentionPredictions
 
 # Wandb Report
 
