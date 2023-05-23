@@ -54,14 +54,26 @@ Performs inference by feeding the predicted output from the previous time step a
 
 Here I have taken following hyperparameter choices
 
+                             parameters_dict = {
+                                 'optimiser': {'values': ['adam','nadam']},
+                                 'teacher_forcing_ratio': {'values': [0.3, 0.5, 0.7]},
+                                 'bidirectional': {'values': [True, False]},
+                                 'enc_embedding': {'values': [128,256]},
+                                 'dec_embedding': {'values': [128,256]},
+                                 'epochs': {'values': [5,3,8]},
+                                 'hidden_size': {'values': [64,128,256,512]},
+                                 'enc_layers': {'values': [2,3]},
+                                 'dec_layers': {'values': [2,3]},
+                                 'dropout': {'values': [0.3,0.4]},
+                                 'cell_type': {'values': ['lstm','gru','rnn']}
+                             }
 
-![image](https://github.com/swapnilmn/Assignment_03/assets/126043206/cc9a7236-da7e-44f6-b7e5-67d19926b584)
 
 [code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_2_Ass_3.ipynb) for Question 2
 
 
 # Question 4:
-                   parameters_dict = {
+                   Best_parameters_dict = {
                                       'optimiser': {'values': ['adam']},
                                       'teacher_forcing_ratio': {'values': [0]},
                                       'bidirectional': {'values': [True]},
@@ -75,8 +87,8 @@ Here I have taken following hyperparameter choices
                                       'cell_type': {'values': ['lstm']}
                                   }
 
-highest_accuracy_val = 0.40
-highest_accuracy_test = 0.38
+highest_accuracy_val = 39.97%
+highest_accuracy_test = 21.69%
 
 [code](https://github.com/swapnilmn/Assignment_03/blob/main/Question_4_Ass_3.ipynb) for Question 4
 
